@@ -34,24 +34,24 @@ START_MSG = """
 
 **Server**  : [Heroku](Heroku.com)
 **Library** : [Pyrogram](https://github.com/pyrogram/pyrogram) 
-**Dev**     : [@Sadew451](https://github.com/Sadew451)
+**Dev**     : [@Kavee2476](https://github.com/Kavee2476)
 
 Bot By @SDBotsz."""
 
 REPLY_MARKUP = InlineKeyboardMarkup(
     [[
-    InlineKeyboardButton('📣 Channel', url = 'https://t.me/SDBots_Inifinity'),
-    InlineKeyboardButton('👥 Support', url = 'https://t.me/SDBotz')
+    InlineKeyboardButton('📣 Channel', url = 'https://t.me/+5vvQhkwH9Io4MDQ1'),
+    InlineKeyboardButton('👥 Support', url = 'https://t.me/+TjISuAxvvdkyN2M1')
     ]]
 )
-JOIN_ASAP = f"❌** Access Denied ❌**\n\n🙋‍♂️ Hey There , You Must Join @SDBots_Inifinity Telegram Channel To Use This BOT. So, Please Join it & Try Again🤗. Thank You 🤝"
+JOIN_ASAP = f"❌** Access Denied ❌**\n\n🙋‍♂️ Hey There , You Must Join @Kavee Telegram Channel To Use This BOT. So, Please Join it & Try Again🤗. Thank You 🤝"
 
 FSUBB = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="👨🏻‍💻 Bot Updates", url=f"https://t.me/SDBots_Inifinity") 
+        InlineKeyboardButton(text="👨🏻‍💻 Bot Updates", url=f"https://t.me/+TjISuAxvvdkyN2M1") 
         ]]
 )
-DB_CHANNEL = "-1001511610738"
+DB_CHANNEL = "-1001738079475"
 @SDBotz.on_message(filters.command('start') & filters.private)
 async def start(client, message):
     try:
